@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,23 +11,28 @@
 				margin: auto;
 				font-family: 'Roboto', sans-serif;
 				background-color: #ccc;
+				padding: 0;
+				box-sizing: border-box;
 			}
 			table {
 				margin: auto;
 				max-width: 600px;
 				width: 100%;
 				text-align: center;
-				border-radius: 5px;
+				border-radius: 10px;
 				background-color: #005a3a;
 			}
 			a {
 				text-decoration: none;
 			}
+			tr, td {
+				border: 5px;
+			}
 		</style>
 		<title>Patagonia Newsletter</title>
 	</head>
 	<body>
-		<table style="border-collapse: collapse">
+		<table style="border-collapse: collapse; border-radius:  10px;">
 			<tr>
 				<td style="background-color: #fff">
 					<!--! Inicio Logomarca -->
@@ -36,7 +40,7 @@
 						<img
 							src="img/logo_patagonia.png"
 							alt="Logomarca Patagonia"
-							style="max-height: 130px; max-width: 100%"
+							style="max-height: 130px; max-width: 100%;"
 						/>
 					</a>
 					<!--! Fin Logomarca -->
@@ -46,52 +50,16 @@
 							href="https://www.instagram.com/cervezapatagonia"
 							target="_blank"
 						>
-							<button
-								style="
-									background-color: #0b331b;
-									color: #fff;
-									border: none;
-									cursor: pointer;
-									border-radius: 5px;
-									padding: 5px;
-									font-size: 10px;
-								"
-							>
-								Instagram
-							</button>
+							<img src="img/instagram_icon.png" alt="" style="width: 35px; padding: 5px;" >
 						</a>
 						<a
 							href="https://www.youtube.com/@cervezapatagonia1761"
 							target="_blank"
 						>
-							<button
-								style="
-									background-color: #0b331b;
-									color: #fff;
-									border: none;
-									cursor: pointer;
-									border-radius: 5px;
-									padding: 5px;
-									font-size: 10px;
-								"
-							>
-								Youtube
-							</button>
+						<img src="img/youtube_icon.png" alt="icono youtube" style="width: 35px; padding: 5px;">
 						</a>
 						<a href="https://twitter.com/CvzaPatagonia" target="_blank">
-							<button
-								style="
-									background-color: #0b331b;
-									color: #fff;
-									border: none;
-									cursor: pointer;
-									border-radius: 5px;
-									padding: 5px;
-									font-size: 10px;
-								"
-							>
-								Twtitter
-							</button>
+							<img src="img/witter_social_icon.png" alt="" style="width: 35px; padding: 5px;">
 						</a>
 					</div>
 					<!--. Fin Botones Redes -->
@@ -113,6 +81,7 @@
 					border-collapse: collapse;
 					margin-top: 5px;
 					background-color: #fff;
+					border-radius:  10px;
 				"
 			>
 				<tr>
@@ -128,7 +97,7 @@
 					</div>
 					<!--! FIN div Imagen evento -->
 					<!--. Inicio div texto  -->
-					<div style="width: 50%">
+					<div style="width: 50%;">
 						<td style="background-color: #ddd">
 							<p>
 								¡Celebremos en el sublime Bariloche el lanzamiento de la nueva
@@ -146,6 +115,7 @@
 					border-collapse: collapse;
 					margin-top: 5px;
 					background-color: #0b331b;
+					border-radius:  10px;
 				"
 			>
 				<tr>
@@ -175,6 +145,7 @@
 					overflow: hidden;
 					border-collapse: collapse;
 					margin-top: 5px;
+					border-radius:  10px;
 				"
 			>
 				<tr>
@@ -206,10 +177,9 @@
 				</tr>
 			</table>
 			<!--! Fin Seccion 5 -->
-			<!-- Footer -->
-			<table style="background-color: #0b331b; height: 200px">
+			<table style="background-color: #0b331b; border-radius:  10px; border-top: 50px;">
 				<tr>
-					<td>
+					<td style="border-top: 50px;">
 						<div style="margin: 10px">
 							<a href="https://www.cervezapatagonia.com.ar/" target="_blank">
 								<img
@@ -219,85 +189,46 @@
 								/>
 							</a>
 						</div>
-						<footer style="width: 100%; height: 245px">
+						<!--. Inicio Footer -->
+						<footer style="width: 100%; height: 260px">
 							<table>
-								<tr style="margin-top: 5px">
+								<tr>
 									<div
 										style="
 											width: 100%;
-											background-color: #fff;
+											background-color: #FFF;
 											display: inline-block;
-											height: 200px;
+											height: 190px;
+											margin-top: 8px;
 										"
 									>
 										<img
 											src="img/logo_patagonia.png"
 											alt="Logomarca Cerveza Patagonia"
-											style="max-width: 400px"
+											style="max-width: 400px;"
 										/>
 									</div>
-									<div style="text-align: center; padding: 10px">
+									<div style="text-align: center;  background-color: #FFF;">
 										<a
 											href="https://www.instagram.com/cervezapatagonia"
 											target="_blank"
 										>
-											<button
-												style="
-													background-color: #fac040;
-													color: #000;
-													border: none;
-													cursor: pointer;
-													border-radius: 5px;
-													padding: 5px;
-													font-size: 10px;
-													font-weight: bold;
-													margin: 5px;
-												"
-											>
-												Instagram
-											</button>
+											<img src="img/instagram_icon.png" alt="icono instagram" style="width: 35px; padding: 5px;">
 										</a>
 										<a
 											href="https://www.youtube.com/@cervezapatagonia1761"
 											target="_blank"
 										>
-											<button
-												style="
-													background-color: #fac040;
-													color: #000;
-													border: none;
-													cursor: pointer;
-													border-radius: 5px;
-													padding: 5px;
-													font-size: 10px;
-													font-weight: bold;
-													margin: 5px;
-												"
-											>
-												Youtube
-											</button>
+										<img src="img/youtube_icon.png" alt="icono youtube" style="width: 35px; padding: 5px;" >
 										</a>
 										<a href="https://twitter.com/CvzaPatagonia" target="_blank">
-											<button
-												style="
-													background-color: #fac040;
-													color: #000;
-													border: none;
-													cursor: pointer;
-													border-radius: 5px;
-													padding: 5px;
-													font-size: 10px;
-													font-weight: bold;
-													margin: 5px;
-												"
-											>
-												Twtitter
-											</button>
+											<img src="img/witter_social_icon.png" alt="icono twitter" style="width: 35px; padding: 5px;">
 										</a>
 									</div>
 								</tr>
 							</table>
 						</footer>
+						<!--. FIN Footer -->
 					</td>
 				</tr>
 			</table>
